@@ -20,7 +20,6 @@ _This is a console app that gathers both a word and sentence from a user, then c
 
 ## Specs
 
-
 1. The program will determine that only letters and capital letters are entered, no number or special characters
   * Input: "1245"
   * Output: False
@@ -62,4 +61,4 @@ _Email: nitundatta8@gmail.com_
 
 This project is licensed under the MIT License
 
-Copyright (c) 2020 **_Nitun Datta & DJ Zevenbergen_**
+Copyright (c) 2020 **_Nitun Datta**
