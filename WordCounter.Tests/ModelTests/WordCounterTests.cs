@@ -13,11 +13,11 @@ namespace WordCounter.Tests{
     }
     [TestMethod]
     public void ValidateStrings_CheackInput_True(){
-      string word = "cat66";
+      string word = "cat";
       string sentence = "I have a at in the cathedral";
       CounterApp counterApp = new CounterApp(word,sentence);
       bool result = counterApp.ValidateStrings(counterApp);
-      Assert.AreEqual(false,result); 
+      Assert.AreEqual(true,result); 
     }
 
 
