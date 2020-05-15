@@ -31,7 +31,7 @@ _This is a console app that gathers both a word and sentence from a user, then c
   * OutPut : True.
 4. The user will input a word and a string. The program will detect if the word is not present in the string.
   * Input: "dog", "I have a cat in the cathedral"
-  * Output: True 
+  * Output: False. 
 5. The user will input a word and a string. The program will detect if the word is present in the string and return the total number of words count only for the full match, regardless of case.
   * Input: "cat", "I have a cat in the cathedral"
   * Output: 1

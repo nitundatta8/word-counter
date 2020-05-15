@@ -12,7 +12,20 @@ namespace WordCounter{
       string sentence = Console.ReadLine();
       CounterApp counterApp = new CounterApp(word,sentence);
       int count = counterApp.CountWords(counterApp);
-      Console.WriteLine($"{wordInput} appears {count} times in your sentence.");
+      if(count>0){
+        Console.WriteLine($"{wordInput} appears {count} times in your sentence.");
+      }else{
+        Console.WriteLine("No mathching word is found.");
+      }
+      Console.WriteLine("Would you like to check one more time.[Y/N]");
+      string userInput =Console.ReadLine();
+      string answer = userInput.ToLower();
+      if(answer == "y"){
+        Start();
+      }else{
+        Console.WriteLine("Good Bye");
+      }
+
     }
     public static void Main(){
       Start();
