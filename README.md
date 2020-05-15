@@ -1,6 +1,6 @@
 # _Word Counter_
 
-#### _This is an Independent project at Epicodus using Behavior Driven Development and automated testing. 5/15/2020_
+#### _This is an Independent Project at Epicodus using Behavior Driven Development and automated testing. 5/15/2020_
 
 ### Made by Nitun Datta 
 ## Description
@@ -20,13 +20,13 @@ _This is a console app that gathers both a word and sentence from a user, then c
 
 ## Specs
 
-1. The program will determine that only letters and capital letters are entered, no number or special characters
+1. The program will determine that only letters and capital letters are entered, no number  or special characters
   * Input: "1245"
   * Output: False
-2.The program will determine that only one word is entered.
+2. The program will determine that only one word is entered.
   * Input : "The man"
-  * OutPut: False
-3.The user will input a word and a string. The program will detect if the word is present in the string.
+  * OutPut: False.
+3. The user will input a word and a string. The program will detect if the word is present  in the string.
   * Input: "cat", "I have a cat in the cathedral"  
   * OutPut : True.
 4. The user will input a word and a string. The program will detect if the word is not present in the string.
@@ -39,9 +39,6 @@ _This is a console app that gathers both a word and sentence from a user, then c
   * Input: "cat", "CAT CAT cat"
   * Output: 3    
 
-
-
----
 ## Known Bugs
 
 
@@ -50,12 +47,8 @@ _This is a console app that gathers both a word and sentence from a user, then c
 _Email: nitundatta8@gmail.com_
 
 ---
-## Built With
-
-## Useful tools
-
-
-
+### Technologies Used
+    - C#,MSTest.
 
 ### License
 
