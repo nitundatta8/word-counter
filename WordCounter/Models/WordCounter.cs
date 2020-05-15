@@ -52,5 +52,19 @@ namespace WordCounter.Models{
       }
       return false;
     }
+    public int CountWords(CounterApp counterApp){
+      int count = 0 ;
+      string wordInput = counterApp._word.ToLower();
+      string sentenceInput = counterApp._sentence.ToLower();
+      string [] sentence = sentenceInput.Split(" ");
+      for(int i=0; i< sentence.Length;i++){
+        if(sentence[i].Contains(wordInput)){
+          if(sentence[i].Length == wordInput.Length){
+            count++;
+          }
+        }
+      }
+      return count;
+    }
   }
 }

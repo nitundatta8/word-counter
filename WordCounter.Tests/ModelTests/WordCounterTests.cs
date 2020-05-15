@@ -59,6 +59,14 @@ namespace WordCounter.Tests{
       bool result = counterApp.ContainWord(counterApp);
       Assert.AreEqual(false,result); 
     }
+    [TestMethod]
+    public void CountWords_CountMatchesWords_CounterApp(){
+      string word = "Cat";
+      string sentence = "I have a cat in the cathedral";
+      CounterApp counterApp = new CounterApp(word,sentence);
+      int result = counterApp.CountWords(counterApp);
+      Assert.AreEqual(1,result); 
+    }
 
 
   }
