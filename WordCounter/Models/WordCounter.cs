@@ -8,16 +8,14 @@ namespace WordCounter.Models{
       _sentence = sentence;
     }
     private bool ValidateLetter(string wordInput){
-      Console.WriteLine("d1");
       string word = wordInput.Replace(" ", string.Empty);
       char [] charArray = word.ToLower().ToCharArray();
       foreach(char ch in charArray){
-        Console.WriteLine("d3 " + ch);
         if(!Char.IsLetter(ch)){
-        return false;
+          return false;
         }
       }
-      return true;
+        return true;
     }
     
     public bool ValidateStrings(CounterApp counterApp){
@@ -38,6 +36,19 @@ namespace WordCounter.Models{
       bool sentence = string.IsNullOrEmpty(sentenceInput);
       if(!word && !sentence){
         return true;
+      }
+      return false;
+    }
+    public bool ContainWord(CounterApp counterApp){
+      string wordInput = counterApp._word.ToLower();
+      string sentenceInput = counterApp._sentence.ToLower();
+      string [] sentence = sentenceInput.Split(" ");
+      for(int i=0; i< sentence.Length;i++){
+        if(sentence[i].Contains(wordInput)){
+          if(sentence[i].Length == wordInput.Length){
+            return true;
+          }
+        }
       }
       return false;
     }
