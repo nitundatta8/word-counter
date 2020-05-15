@@ -46,10 +46,10 @@ _Email: nitundatta8@gmail.com_
 
 ---
 ### Technologies Used
-    - C#,MSTest.
+    C#,MSTest.
 
 ### License
 
 This project is licensed under the MIT License
 
-Copyright (c) 2020 **_Nitun Datta**
+Copyright (c) 2020 **_Nitun Datta_**
