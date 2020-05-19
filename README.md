@@ -23,7 +23,7 @@ _This is a console app that gathers both a word and sentence from a user, then c
 1. The program will determine that only letters and capital letters are entered, no number  or special characters
   * Input: "1245"
   * Output: False
-2. The program will determine that only one word is entered and also check any input is null or empty.
+2. The program will determine that if any input is null or empty.
   * Input : "The man",  ""
   * OutPut: False.
 3. The user will input a word and a string. The program will detect if the word is present  in the string.

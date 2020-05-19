@@ -14,7 +14,18 @@ namespace WordCounter
       Console.WriteLine("Enter a sentence......");
       string sentence = Console.ReadLine();
       CounterApp counterApp = new CounterApp(word, sentence);
-      int count = counterApp.CountWords(counterApp);
+      bool flag = counterApp.IsSrtingNullOrEmpty(counterApp);
+      int count = 0;
+      if (flag)
+      {
+        count = counterApp.CountWords(counterApp);
+      }
+      else
+      {
+        Console.WriteLine("Please enter the correct input.");
+        Start();
+      }
+
       if (count > 0)
       {
         Console.WriteLine($"{wordInput} appears {count} times in your sentence.");
