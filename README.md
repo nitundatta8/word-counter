@@ -12,10 +12,10 @@ _This is a console app that gathers both a word and sentence from a user, then c
 1. Clone this repository from GitHub.
 2. Open the downloaded directory in a text editor of your choice.
   (VSCode, Atom, etc.)
-3. To install the REPL dotnet script, run dotnet tool install -g dotnet-script in your terminal.
-4. Initialize the program with the command dotnet build.
-5. Run donet restore
-6. Run dotnet test
+3. Make sure that C#/.netcore2.2 is installed on your computer.  
+4. Begin the program with the command dotnet run.
+5. For testing,locate to the WordCounter.Tests directory and run "dotnet test".
+
 
 
 ## Specs
@@ -46,7 +46,10 @@ _Email: nitundatta8@gmail.com_
 
 ---
 ### Technologies Used
-    C#,MSTest.
+    C#
+    MSTest
+    .NET Core
+    Git and GitHub
 
 ### License
 
