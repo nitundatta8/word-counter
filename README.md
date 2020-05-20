@@ -13,8 +13,9 @@ _This is a console app that gathers both a word and sentence from a user, then c
 2. Open the downloaded directory in a text editor of your choice.
   (VSCode, Atom, etc.)
 3. Make sure that C#/.netcore2.2 is installed on your computer.  
-4. Begin the program with the command dotnet run.
-5. For testing,locate to the WordCounter.Tests directory and run "dotnet test".
+4. For launching the program navigate to the _WordCounter_ directory and run _dotnet build_.
+5. Next,run _dotnet run_ command in the same directory to execute this compiled code.
+5. For testing,locate to the WordCounter.Tests directory and run _dotnet test_.
 
 
 
